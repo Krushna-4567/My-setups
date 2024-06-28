@@ -11,6 +11,7 @@ sudo -i
 3. vim /etc/ssh/sshd_config (uncomment: 38 , no=yes: 63)
 4. systemctl restart sshd
 5. systemctl status sshd
+6. hostname -i
 
 ANSIBLE SERVER:
 amazon-linux-extras install ansible2 -y
